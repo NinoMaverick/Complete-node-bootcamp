@@ -7,9 +7,9 @@ const router = express.Router();
 // router.param('id', tourController.checkID);
 
 // Create a checkBody middleware
-// Check if body contains the name and rice property
+// Check if body contains the name and price property
 // If not, send back 400 (bad request)
-// Add it to the post hadler stack
+// Add it to the post handler stack
 
 router
   .route('/top-5-cheap')
