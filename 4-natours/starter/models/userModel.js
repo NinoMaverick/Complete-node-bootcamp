@@ -3,7 +3,7 @@ const validator = require('validator');
 
 //name, email, photo, password, passwordConfirm
 
-const userSchema = new.mongoose.Schema(
+const userSchema = new mongoose.Schema(
  {
     name: {
         type: String,
@@ -29,6 +29,6 @@ const userSchema = new.mongoose.Schema(
     }
  });
 
- const User = mongoose.mode('User', userSchema);
+ const User = mongoose.model('User', userSchema);
 
  module.exports = User;
