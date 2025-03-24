@@ -1,4 +1,4 @@
-console.error = () => {}; // Disables error logging only
+// console.error = () => {}; // Disables error logging only
 
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
